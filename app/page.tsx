@@ -73,7 +73,7 @@ export default function PhysicsSimulation() {
         <header className="text-center mb-8">
           <h1 className="text-4xl font-bold text-foreground mb-2">Physics Simulation: Buoyancy & Fluid Pressure</h1>
           <p className="text-muted-foreground text-lg">
-            Explore how object density affects buoyancy and learn about fluid pressure
+            Explore how object density affects buoyancy 
           </p>
           <div className="flex justify-center gap-4 mt-4">
             <Button onClick={() => setShowQuiz(true)} variant="outline" className="flex items-center gap-2">
