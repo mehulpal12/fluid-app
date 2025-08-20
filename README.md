@@ -1,30 +1,86 @@
-# New conversation
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+# Class 10 **Fluids** – Interactive Educational Module
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mehulpal12s-projects/v0-new-conversation)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/R1PrAiBJBRy)
+An interactive learning module for Class 10 Physics covering **Pressure in Fluids**, **Buoyant Force**, **Archimedes’ Principle**, and **Pascal’s Law** using **simulations, animations, and interactive elements**. Built with **Next.js + React**, **Tailwind CSS**, **Framer Motion**, and **p5.js**.
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🎯 Learning Objectives
 
-## Deployment
+* Visualize how **pressure varies with depth**: $P = h \rho g$.
+* Explore **buoyant force**: $F_b = \rho V g$ and conditions for **float/sink**.
+* See **Pascal’s Law** in action with a **hydraulic lift**.
+* Strengthen understanding via **hands-on experiments** and **quizzes**.
 
-Your project is live at:
+---
 
-**[https://vercel.com/mehulpal12s-projects/v0-new-conversation](https://vercel.com/mehulpal12s-projects/v0-new-conversation)**
+## ✨ Features
 
-## Build your app
+* **Interactive Simulations**
 
-Continue building your app on:
+  * **Pressure vs Depth**: Drag a diver and watch pressure update live.
+  * **Archimedes’ Tank**: Drop objects of different **density/volume** and observe float/sink + displaced volume.
+  * **Hydraulic Lift**: Apply force on a small piston and lift a car (adjust areas/forces).
+* **Animations** powered by Framer Motion (bubbles, water surface, UI transitions).
+* **Built‑in Mini‑Quizzes** with instant feedback and explanations.
+* **Light/Dark Theme** toggle for accessibility.
+* Fully **responsive** (mobile/desktop/tablet).
 
-**[https://v0.app/chat/projects/R1PrAiBJBRy](https://v0.app/chat/projects/R1PrAiBJBRy)**
+---
 
-## How It Works
+## 🧰 Tech Stack
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+* **Framework**: Next.js (App Router) + React
+* **Styling**: Tailwind CSS
+* **Animations**: Framer Motion, Lottie (optional)
+* **Simulations**: p5.js (via react-p5) and/or Matter.js (optional for physics)
+* **State**: React hooks (useState/useRef), Zustand (optional)
+* **Deployment**: Vercel
+
+---
+
+
+
+## 🧪 Simulations (Details)
+
+### Pressure vs Depth
+
+* **Controls**: Drag diver vertically, slider for fluid density.
+* **Live readouts**: Depth (m), Pressure (Pa).
+* **Equation panel** updates: $P = h \rho g$.
+
+### Archimedes’ Principle (Buoyancy Tank)
+
+* **Controls**: Object density, volume, fluid type (water/oil/brine).
+* **Outputs**: Float/Sink, displaced volume, net force graph.
+* **Visualization**: Water level rise; force arrows (weight vs buoyant force).
+
+### Pascal’s Law – Hydraulic Lift
+
+* **Controls**: Small/large piston areas, applied force.
+* **Outputs**: Pressure transmission, lifted weight, mechanical advantage.
+* **Visualization**: Fluid link with synchronized piston motion.
+
+---
+
+## 📚 Pedagogical Design
+
+* **Discover → Explain → Apply** flow.
+* Micro‑explanations alongside controls (tooltips).
+* **Try‑Predict‑Reveal** prompts before revealing equations.
+* **Low‑floor/High‑ceiling**: Starts simple, allows deeper exploration.
+
+---
+
+## 🧩 Quiz & Assessment
+
+* **MCQs** with explanations.
+* **Interactive tasks**: Predict float/sink before running; match terms (density, pressure, buoyancy).
+* Scoring + review section at the end.
+
+---
+## 📣 Project Status
+
+MVP complete: Pressure sim + Quiz. Buoyancy & Pascal modules in progress.
+
+> If you use this in a classroom, feedback and feature requests are welcome!
